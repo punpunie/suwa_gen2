@@ -1,30 +1,27 @@
 {
-	"schemaVersion": 1,
-	"id": "example_mod",
-	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://example.com/",
-		"sources": "https://github.com/OrnitheMC/ornithe-template-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/example_mod/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"init": [
-			"com.example.example_mod.ExampleMod"
-		]
-	},
-	"mixins": [
-		"example_mod.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.17.3",
-		"minecraft": "1.7.2",
-		"osl-entrypoints": ">=0.4.0"
-	}
+  "schemaVersion": 1,
+  "id": "suwa",
+  "version": "a0.1",
+  "name": "suwa",
+  "description": "fov mod wip",
+  "authors": [
+    "punpunie"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/OrnitheMC/ornithe-template-mod"
+  },
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "modmenu": [ "io.github.punpunie.suwa.SuwaModMenuApiImpl" ]
+  },
+  "mixins": [
+    "suwa.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.0.0-beta.7.3",
+    "osl-entrypoints": ">=0.4.0"
+  }
 }
