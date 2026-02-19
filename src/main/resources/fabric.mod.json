@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "suwa",
-  "version": "a0.1",
+  "version": "0.1",
   "name": "suwa",
-  "description": "fov mod wip",
+  "description": "FOV and Viewmodel adjustment mod!",
   "authors": [
     "punpunie"
   ],
